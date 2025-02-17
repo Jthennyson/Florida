@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="banner">
+        <div class="container">
+          <img class="logo px-4" src="./images/Florida logo.png" alt="Florida state logo" height="50">
+          <h1 class="main-title"><a href="./index.html">Discover Florida</a></h1>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul class="nav-item" style="list-style: none;">
+          <li class="nav-link">
+            <a href="./capital.html">Tallahasse</a>
+          </li>
+          <li class="nav-link">
+            <a href="./miami.html">Miami</a>
+          </li>
+          <li class="nav-link">
+            <a href="./orlando.html">Orlando</a>
+          </li>
+        </ul>
+    </nav>
+    <div class="contact-container">
+        <form id="form" action="" class="contact-left">
+            <div class="contact-left-title">
+                <h2>STAY IN THE KNOW</h2>
+                <hr>
+            </div>
+            <input type="text" name="name" placeholder="First Name" class="contact-input" required>
+            <input type="text" name="name" placeholder="Last Name" class="contact-input" required>
+            <input type="email" id="email" name="email" placeholder="Email" class="contact-input">
+            <input type="email" id="confirm_email" name="email" placeholder="Confirm Email" class="contact-input">
+            <input type="text" name="subject" placeholder="City" class="contact-input" required>
+            <textarea name="message" placeholder="Your Message" class="contact-input"></textarea>
+            <button type="submit" onclick="validateForm()" class="contact-button">Submit</button>
+        </form>
+        <div class="contact-right">
+            <img class="event" src="./images/Florida art.jpeg" alt="shopping artwork" height="400" width="500">
+        </div>
+    </div>
+    <footer>
+        <div class="gradient-background">
+            <div class="foot">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+              </ul>
+              <p class="copyright">© 2025 Altenor Jean, WGU</p>
+          </div>
+    </footer>
+    <script src="./contact.js"></script>
+</body>
+</html>
